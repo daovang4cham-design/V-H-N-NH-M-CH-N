@@ -1,0 +1,22 @@
+{
+  "name": "vo-han-nham-chan",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vô Hạn Nhàm Chán – game chạm vô định cho người đang chán",
+  "scripts": {
+    "sync": "cap sync android",
+    "apk:debug": "cap sync android && cd android && ./gradlew assembleDebug",
+    "apk:release": "cap sync android && cd android && ./gradlew assembleRelease",
+    "serve": "npx --yes serve www"
+  },
+  "dependencies": {
+    "@capacitor/android": "8.5.3",
+    "@capacitor/core": "8.5.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.5.3"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

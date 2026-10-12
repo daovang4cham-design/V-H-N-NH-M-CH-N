@@ -1,0 +1,11 @@
+# Giữ đúng kiểu xuống dòng để gradlew chạy được trên máy chủ Linux của GitHub (kể cả khi bạn dùng Windows)
+* text=auto
+gradlew text eol=lf
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# File nhị phân
+*.png binary
+*.jar binary
+*.keystore binary
+*.woff2 binary

@@ -1,0 +1,19 @@
+# Thư viện cài bằng npm (GitHub tự cài lại khi build)
+node_modules/
+
+# File build
+dist/
+*.apk
+*.aab
+
+# Khoá ký riêng: KHÔNG bao giờ đưa lên git (khoá chung shared-dev.keystore thì được phép)
+*.jks
+release.keystore
+*.base64.txt
+
+# Hệ điều hành / trình soạn thảo
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/

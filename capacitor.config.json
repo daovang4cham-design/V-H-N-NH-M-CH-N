@@ -1,0 +1,17 @@
+{
+  "appId": "com.vohannhamchan.app",
+  "appName": "Vô Hạn Nhàm Chán",
+  "webDir": "www",
+  "backgroundColor": "#0E1114",
+  "android": {
+    "backgroundColor": "#0E1114",
+    "webContentsDebuggingEnabled": false
+  },
+  "plugins": {
+    "SystemBars": {
+      "insetsHandling": "css",
+      "initialViewportFitValueHint": "cover",
+      "style": "DARK"
+    }
+  }
+}
